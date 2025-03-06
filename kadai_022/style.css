@@ -18,7 +18,7 @@ main {
   justify-content: space-around;
 }
 
-.contens {
+.contents {
   border: solid 3px rgb(238,204,204);
   flex-basis: 25%;
   padding: 10px 15px;
@@ -36,10 +36,11 @@ h2::before {
   color: rgb(239,111,139);
 }
 
-#parent p:nth-of-type(2)::first-letter {
+.contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97,206,249);
 }
+
 .contens img {
   margin: 10px 0px;
   width: 70%;
